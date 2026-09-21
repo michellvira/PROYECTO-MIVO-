@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memories</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!--Barra de navegacion-->
+    <header>
+        <h2>Juego de Memoria</h2>
+        <nav>
+            <button id="btnTabla">Tabla de posiciones</button>
+            <butto id="btnInicio">Inicio</button>
+        </nav>
+        </header>
+        <!-- Información del juego -->
+        <section class="info">
+            <div class="caja">
+                <h3>Tiempo</h3>
+                <p>00:00</p>
+            </div>
+
+            <div class="caja">
+                <h3>Movimientos</h3>
+                <p>0</p>
+            </div>
+
+            <div class="caja">
+                <h3>Pares</h3>
+                <p>0/8</p>
+            </div>
+        </section>
+
+        <!-- Cartas -->
+        <main class="tablero">
+            <div class="carta1">
+                <img src="img/uva.png" alt="uva">
+            </div>
+            <div class="carta"></div>
+            <div class="carta"></div>
+            <div class="carta"></div>
+            <div class="carta"></div>
+            <div class="carta"></div>
+            <div class="carta"></div>
+            <div class="carta"></div>
+            <div class="carta"></div>
+            <div class="carta"></div>
+            <div class="carta"></div>
+            <div class="carta"></div>
+            <div class="carta"></div>
+            <div class="carta"></div>
+            <div class="carta"></div>
+            <div class="carta"></div>
+        </main>
+
+        <!-- Ventana emergente -->
+
+        <div class="modal" id="modal">
+            <div class="contenido">
+                <h2>Tabla de Posiciones</h2>
+                <table>
+                    <tr>
+                        <th>Posición</th>
+                        <th>Jugador</th>
+                        <th>Tiempo</th>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>Ana</td>
+                        <td>00:45</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Juan</td>
+                        <td>00:52</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Carlos</td>
+                        <td>01:10</td>
+                    </tr>
+                </table>
+                <button id="cerrar">Cerrar</button>
+            </div>
+        </div>
+<script src="js/scripts.js"></script>
+</body>
+</html>
